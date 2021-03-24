@@ -1,4 +1,13 @@
-h1 {
-    color: red;
-    position: relative;
+body {
+    display: flex;
+    flex-direction: column;
+}
+#center {
+    height: %20;
+}
+header {
+    height: %40;
+}
+footer {
+    height: %40;
 }
