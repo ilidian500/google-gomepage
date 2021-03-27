@@ -1,13 +1,53 @@
 body {
     display: flex;
     flex-direction: column;
+    height: 860px;
 }
-#center {
-    height: %20;
+section {
+    height: 60%;
+    display: block;
+    margin: auto;
 }
 header {
-    height: %40;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
 }
 footer {
-    height: %40;
+    height: 20%;
+    color: blue;
+    display: flex;
+    flex-direction: column-reverse;   
+}
+input {
+    height: 30px;
+    width: 592px;
+    border-color: gray;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 30px;
+}
+form {
+    width: 600px;
+}
+#deep {
+    height: 20%;
+}
+#navigator {
+    height: 20%;
+}
+#center {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}    
+#logo {
+    height: 30%;
+    display: block;
+    margin: auto auto 0px auto;
+}
+#search-box {
+    height: 30%;
 }
